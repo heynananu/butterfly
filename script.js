@@ -1,5 +1,5 @@
-import * as THREE from './three.min.js';
-import { GLTFLoader } from './GLTFLoader.min.js';
+import * as THREE from 'https://unpkg.com/three@0.150.1/build/three.module.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.150.1/examples/jsm/loaders/GLTFLoader.js';
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x222222);
